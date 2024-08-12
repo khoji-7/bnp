@@ -1,0 +1,254 @@
+/* Asosiy uslublar (1440px va undan kattaroq) */
+.headerMain {
+    width: 100%;
+    height: 50vh;
+    background-color: #464241;
+    border-radius: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.headerMainImg {
+    height: 45vh;
+}
+
+.headerMainTitle {
+    font-size: 48px;
+    line-height: 39px;
+    margin: 0 0 40px;
+    color: white;
+    text-transform: uppercase;
+    text-align: end;
+}
+
+.headerSer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.headerIcon {
+    height: 40px;
+    width: 60px;
+}
+
+.headerTitle {
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -.3px;
+}
+
+.headerText {
+    font-size: 14px;
+}
+
+.headerTex {
+    max-width: 200px;
+}
+
+/* max-width: 1440px */
+@media screen and (max-width: 1440px) {
+    .headerMain {
+        height: 45vh;
+        padding: 15px;
+        border-radius: 40px;
+    }
+
+    .headerMainTitle {
+        font-size: 42px;
+    }
+
+    .headerIcon {
+        height: 35px;
+        width: 55px;
+    }
+
+    .headerTitle {
+        font-size: 15px;
+    }
+
+    .headerText {
+        font-size: 13px;
+    }
+}
+
+/* max-width: 960px */
+@media screen and (max-width: 960px) {
+    .headerMain {
+        height: 40vh;
+        padding: 10px;
+        border-radius: 35px;
+    }
+
+    .headerMainImg {
+        height: 35vh;
+    }
+
+    .headerMainTitle {
+        font-size: 36px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .headerSer {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .headerIcon {
+        height: 30px;
+        width: 50px;
+    }
+
+    .headerTitle {
+        font-size: 14px;
+    }
+
+    .headerText {
+        font-size: 12px;
+    }
+
+    .headerTex {
+        max-width: 150px;
+    }
+}
+
+/* max-width: 780px */
+@media screen and (max-width: 780px) {
+    .headerMain {
+        height: 35vh;
+        padding: 10px;
+        border-radius: 30px;
+    }
+
+    .headerMainImg {
+        height: 25vh;
+    }
+
+    .headerMainTitle {
+        font-size: 30px;
+        line-height: 25px;
+    }
+
+    .headerSer {
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+    }
+
+    .headerIcon {
+        height: 25px;
+        width: 40px;
+    }
+
+    .headerTitle {
+        font-size: 13px;
+    }
+
+    .headerText {
+        font-size: 11px;
+    }
+
+    .headerTex {
+        max-width: 130px;
+    }
+}
+
+/* max-width: 480px */
+@media screen and (max-width: 480px) {
+    .headerMain {
+        height: 30vh;
+        padding: 8px;
+        border-radius: 25px;
+        grid-template-columns: 1fr;
+    }
+
+    .headerMainImg {
+       display: none;
+    }
+
+    .headerMainTitle {
+        font-size: 24px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .headerSer {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 8px;
+        justify-content: center;
+    }
+    .header{
+        margin: auto;
+    }
+
+    .headerIcon {
+        height: 20px;
+        width: 35px;
+    }
+
+    .headerTitle {
+        font-size: 12px;
+    }
+
+    .headerText {
+        font-size: 10px;
+    }
+
+    .headerTex {
+        max-width: 110px;
+    }
+}
+
+/* max-width: 320px */
+@media screen and (max-width: 320px) {
+    .headerMain {
+        height: 25vh;
+        padding: 5px;
+        border-radius: 20px;
+        grid-template-columns: 1fr;
+    }
+
+    .headerMainImg {
+        height: 20vh;
+    }
+
+    .headerMainTitle {
+        font-size: 20px;
+        line-height: 18px;
+        text-align: center;
+    }
+
+    .headerSer {
+        grid-template-columns: 1fr;
+        gap: 5px;
+    }
+
+    .headerIcon {
+        height: 18px;
+        width: 30px;
+    }
+
+    .headerTitle {
+        font-size: 10px;
+    }
+
+    .headerText {
+        font-size: 9px;
+    }
+
+    .headerTex {
+        max-width: 100px;
+    }
+}

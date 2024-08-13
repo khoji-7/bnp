@@ -1,0 +1,164 @@
+.collection{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    gap: 10px;
+    align-items: center;
+}
+.collectionTitle{
+    font-family: "Poppins", Sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 68px;
+    letter-spacing: -1.7px;
+    color: black;
+    text-align: center;
+    text-transform: capitalize;
+}
+.collectionText{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    color: rgba(0, 0, 0, .6);
+}
+.collectionChild{
+    display: grid;
+    grid-template-columns:  repeat(5, 1fr);
+    gap: 20px;
+}
+.collectionCardImg{
+    width: 230px;
+    border-radius: 10px;
+}
+.colletionCardTExt{
+    font-family: "Poppins", Sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-transform: capitalize;
+}
+.collectionCard:hover{
+    box-shadow: 5px #1c161740;
+    color: #be4d53ec;
+    .collectionCardImg{
+        width: 250px;
+        border-radius: 10px;
+    }
+    .colletionCardTExt{
+        font-family: "Poppins", Sans-serif;
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0px;
+        text-transform: capitalize;
+    }
+}
+@media screen and (max-width: 1260px) {
+    .collectionChild {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .collectionCardImg {
+        width: 210px;
+    }
+
+    .collectionTitle {
+        font-size: 40px;
+        line-height: 60px;
+    }
+}
+
+
+/* max-width: 1024px */
+@media screen and (max-width: 1024px) {
+    .collectionChild {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .collectionCardImg {
+        width: 210px;
+    }
+
+    .collectionTitle {
+        font-size: 40px;
+        line-height: 60px;
+    }
+}
+
+/* max-width: 960px */
+@media screen and (max-width: 960px) {
+    .collectionChild {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .collectionCardImg {
+        width: 200px;
+    }
+
+    .collectionTitle {
+        font-size: 35px;
+        line-height: 55px;
+    }
+}
+
+/* max-width: 780px */
+@media screen and (max-width: 780px) {
+    .collectionChild {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .collectionCardImg {
+        width: 180px;
+    }
+
+    .collectionTitle {
+        font-size: 32px;
+        line-height: 50px;
+    }
+
+    .collectionText {
+        font-size: 14px;
+        line-height: 21px;
+    }
+}
+
+/* max-width: 480px */
+@media screen and (max-width: 480px) {
+    .collectionChild {
+        grid-template-columns: 1fr;
+    }
+
+    .collectionCardImg {
+        width: 150px;
+    }
+
+    .collectionTitle {
+        font-size: 28px;
+        line-height: 45px;
+    }
+
+    .collectionText {
+        font-size: 13px;
+        line-height: 20px;
+    }
+}
+
+/* max-width: 320px */
+@media screen and (max-width: 320px) {
+    .collectionTitle {
+        font-size: 24px;
+        line-height: 40px;
+    }
+
+    .collectionCardImg {
+        width: 130px;
+    }
+
+    .collectionText {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}

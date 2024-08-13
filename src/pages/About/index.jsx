@@ -1,4 +1,5 @@
 import Navbar from "../../components/navbar"
+import Footer from "../../components/footer"
 export default function about(){
 
 return(
@@ -14,6 +15,7 @@ return(
         <p>
             Donec sed elementum ipsum, vel lobortis dolor. Sed vel dignissim eros, et sagittis nunc. Duis vel mauris et enim mollis consectetur. Nulla facilisi. Sed vel justo vel tellus semper auctor. Donec vel ipsum non urna fermentum malesuada.
         </p>
+        <Footer />
     </div>
 )
 }

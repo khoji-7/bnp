@@ -13,7 +13,9 @@
 }
 
 .headerMainImg {
-    height: 45vh;
+   width:800px;
+
+    
 }
 
 .headerMainTitle {
@@ -58,31 +60,13 @@
     max-width: 200px;
 }
 
-/* max-width: 1440px */
-@media screen and (max-width: 1440px) {
-    .headerMain {
-        height: 45vh;
-        padding: 15px;
-        border-radius: 40px;
+@media screen and (max-width: 1150px) {
+    .headerMainImg{
+        width: 600px;
     }
-
-    .headerMainTitle {
-        font-size: 42px;
-    }
-
-    .headerIcon {
-        height: 35px;
-        width: 55px;
-    }
-
-    .headerTitle {
-        font-size: 15px;
-    }
-
-    .headerText {
-        font-size: 13px;
-    }
+    
 }
+
 
 /* max-width: 960px */
 @media screen and (max-width: 960px) {
@@ -93,7 +77,7 @@
     }
 
     .headerMainImg {
-        height: 35vh;
+        width: 300px;
     }
 
     .headerMainTitle {

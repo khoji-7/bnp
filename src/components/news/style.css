@@ -3,6 +3,7 @@
     flex-direction: column;
     width: 100%;
     margin: 0 auto;
+    align-items: center;
 }
 .newsTitle{
     font-family: "Poppins", Sans-serif;
@@ -11,7 +12,6 @@
     line-height: 35px;
     letter-spacing: -0.8px;
     color: black;
-    text-align: center;
     text-transform: capitalize;
 }
 .newsText{
@@ -20,5 +20,132 @@
     font-weight: 400;
     line-height: 23px;
     color: rgba(0, 0, 0, .6);
-    text-align: center;
+    text-transform: capitalize;
+}
+.newCardImg{
+    width: 400px;
+    border-radius: 10px;
+
+}
+.newsCardTitle{
+        font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1px;
+    color: black;
+}
+.newsCard{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 450px;
+
+}
+.newsCardPar{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    justify-content: space-between;
+}
+@media screen and (max-width: 1024px) {
+    .newsCardPar {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    .newCardImg {
+        width: 350px;
+    }
+
+    .newsCardTitle {
+        font-size: 18px;
+        line-height: 26px;
+    }
+}
+
+/* max-width: 960px */
+@media screen and (max-width: 960px) {
+    .newsCardPar {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        justify-content: center;
+    }
+    .newsCard{
+        margin: 0 auto;
+    }
+
+    .newCardImg {
+        width: 320px;
+    }
+
+    .newsTitle {
+        font-size: 22px;
+        line-height: 32px;
+    }
+}
+
+/* max-width: 780px */
+@media screen and (max-width: 780px) {
+    .newsCardPar {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .newCardImg {
+        width: 300px;
+    }
+
+    .newsTitle {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .newsText {
+        font-size: 14px;
+        line-height: 21px;
+    }
+}
+
+/* max-width: 480px */
+@media screen and (max-width: 480px) {
+    .newsCardPar {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        
+    }
+
+    .newCardImg {
+        width: 260px;
+    }
+
+    .newsTitle {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .newsText {
+        font-size: 13px;
+        line-height: 20px;
+    }
+}
+
+/* max-width: 320px */
+@media screen and (max-width: 320px) {
+    .newCardImg {
+        width: 240px;
+    }
+
+    .newsTitle {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .newsText {
+        font-size: 12px;
+        line-height: 18px;
+    }
 }

@@ -92,6 +92,8 @@
     color: black; 
     font-weight: bold; 
 }
+
+
 /* Media Query */
 @media screen and (max-width: 900px) {
     .navbarLink {

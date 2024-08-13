@@ -1,0 +1,57 @@
+.comments{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    flex-direction: column;
+    gap: 10px;
+}
+.commentsTitle{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -.6px;
+    color: black;
+}
+.commentsText{
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.commentsInput{
+    width: 40%;
+    height: 50px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 10px;
+}
+.inputPar{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+.forma{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.commentsInputFikr{
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 10px;
+    
+    height: 30vh;
+}
+.commentsBtn{
+    width: 250px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #F42D38;
+    border: none;
+    color: white;
+}
+.newsLink{
+    text-decoration: none;
+    gap: 20px;
+}
